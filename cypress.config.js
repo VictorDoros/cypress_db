@@ -42,7 +42,6 @@ module.exports = defineConfig({
         },
       })
       require("cypress-mochawesome-reporter/plugin")(on)
-      return config
       // implement node event listeners here
     },
     // Path to e2e tests
