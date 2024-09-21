@@ -29,7 +29,7 @@ module.exports = defineConfig({
     db: {
       host: "db4free.net",
       user: "admin110011",
-      password: "admin123456",
+      password: "258bd2a6",
       database: "cypress_db",
       port: 3306,
     },
