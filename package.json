@@ -4,8 +4,7 @@
   "description": "Integrating MySQL database into Cypress",
   "main": "index.js",
   "scripts": {
-    "cy:openMode": "npx cypress open",
-    "cy:headlessMode": "npx cypress run"
+    "runHeadlessMode": "cypress run"
   },
   "author": "Victor Doros",
   "license": "ISC",
