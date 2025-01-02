@@ -7,7 +7,7 @@ describe("Data base practice", () => {
         expect(result[0].Title).to.eq("Barbie")
         expect(result[0].Company).to.eq("Warner Bros. Studios")
         expect(result[0].Director).to.eq("Greta Gerwig")
-        expect(result[0].Year).to.be.above(2022)
+        expect(result[0].Year).to.be.above(2022).and.eq(2023)
       }
     )
   })
